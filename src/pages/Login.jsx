@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
 import Header from '../components/estaticos/Header'
 import Footer from '../components/estaticos/Footer'
-import './styleLogin.css'
+import './StyleLogin.css'
 import { useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 
