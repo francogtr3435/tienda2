@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.adminContainer {
+  padding: 20px;
+  min-height: 100vh;
+  width: 100%;
+  background: #f5f5f5;
+  overflow-x: hidden;
+}
+
+/* NAV */
+.adminNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* SALIR */
+.logoutBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* TITULO */
+.titleAdmin {
+  margin: 20px 0;
+}
+
+/* GRID */
+.gridProducts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+/* CARD */
+.cardProduct {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* IMAGEN */
+.productImg {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* TEXTO */
+.cardProduct h3,
+.cardProduct p {
+  margin: 5px 0;
+}
+
+/* BOTONES ABAJO */
+.actions {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* EDITAR */
+.actions button:first-child {
+  background: #3498db;
+  color: white;
+}
+
+/* ELIMINAR */
+.actions button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+/* AGREGAR */
+.addBtn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* LOADING */
+.loading {
+  padding: 20px;
+}

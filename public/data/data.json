@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mojito",
+    "precio": 8.5,
+    "stock": 25,
+    "imagen": "https://images.unsplash.com/photo-1609951651556-5334e2706168",
+    "categoria": "clasico"
+  },
+  {
+    "id": 2,
+    "nombre": "Piña Colada",
+    "precio": 9.0,
+    "stock": 18,
+    "imagen": "https://images.unsplash.com/photo-1609951651556-5334e2706168",
+    "categoria": "tropical"
+  },
+  {
+    "id": 3,
+    "nombre": "Daiquiri",
+    "precio": 10.0,
+    "stock": 12,
+    "imagen": "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+    "categoria": "tropical"
+  },
+  {
+    "id": 4,
+    "nombre": "Bloody Mary",
+    "precio": 9.5,
+    "stock": 15,
+    "imagen": "https://images.unsplash.com/photo-1544145945-f90425340c7e",
+    "categoria": "clasico"
+  },
+  {
+   "id": 5,
+    "nombre": "Piña Col",
+    "precio": 7.0,
+    "stock": 28,
+    "imagen": "https://images.unsplash.com/photo-1609951651556-5334e2706168",
+    "categoria": "tropical"
+  }
+  ]

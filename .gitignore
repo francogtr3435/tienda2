@@ -1,0 +1,75 @@
+# ============ DEPENDENCIAS ============
+node_modules/
+.pnp/
+.pnp.js
+yarn.lock
+package-lock.json
+
+# ============ BUILD / PRODUCCIÓN ============
+dist/
+build/
+dist-ssr/
+*.local
+out/
+
+# ============ VARIABLES DE ENTORNO ============
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.*.local
+
+# ============ LOGS ============
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============ EDITORES / IDE ============
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ============ SISTEMA OPERATIVO ============
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# ============ TESTING / COBERTURA ============
+coverage/
+.nyc_output/
+*.coverage
+jest.snapshots
+
+# ============ TYPESCRIPT (por si acaso) ============
+*.tsbuildinfo
+next-env.d.ts
+
+# ============ GIT ============
+.git/
+!.gitignore
+
+# ============ OTROS ============
+*.pem
+*.temp
+*.tmp
+*.cache
+*.bak
+*.swp
+*.swo
+*~

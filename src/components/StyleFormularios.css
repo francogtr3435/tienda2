@@ -1,0 +1,19 @@
+.contenedor-formularios {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.form-producto {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  justify-content: space-between;
+}
