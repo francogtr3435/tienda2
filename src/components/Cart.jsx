@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './styleCart.css';
+import './StyleCart.css';
 import { CartContext } from '../context/CartContext';
 import { useNavigate } from "react-router-dom";
 import { useAuth } from '../context/AuthContext'  // Ruta relativa correcta

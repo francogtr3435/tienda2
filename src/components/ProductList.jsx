@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import Productos from './Productos'
-import './styleProductos.css'
+import './StyleProductos.css'
 import { CartContext } from '../context/CartContext'
 import Pagination from 'react-bootstrap/Pagination'
 
